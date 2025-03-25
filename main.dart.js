@@ -33682,17 +33682,17 @@ A.vh.prototype={
 ai(){var s=null,r=t.N,q=t.z
 return new A.z3(new A.H9(B.wW,$.ah()),A.c([A.a8(["error","Luisa Vocalmic stops working","solved",!1],r,q),A.a8(["error","IEM Luisa stops working","solved",!1],r,q),A.a8(["error","IEM Jendrik stops working","solved",!1],r,q),A.a8(["error","IEM Finn stops working","solved",!1],r,q),A.a8(["error","IEM Axel stops working","solved",!1],r,q),A.a8(["error","IEM Freddy stops working","solved",!1],r,q),A.a8(["error","MacBook stops playing","solved",!1],r,q),A.a8(["error","Freddy moves 1 beat","solved",!1],r,q),A.a8(["error","guitar Finn stops working","solved",!1],r,q),A.a8(["error","guitar Jendrik stops working","solved",!1],r,q),A.a8(["error","guitar Axel stops working","solved",!1],r,q)],t.H7),A.hT(s,s,B.kP,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)}}
 A.z3.prototype={
-zZ(){var s,r,q=this,p=q.w
-p===$&&A.a()
-A.fx(p.length)
-B.b.V(q.w)
-A.fx(q.w.length)
-for(p=q.r,s=0;s<11;++s){r=p[s]
-if(B.d.p(J.dA(r.h(0,"error")),"IEM")){if(!q.y){A.adl("_causes.add(iem)")
-q.w.push(r)}}else if(B.d.p(J.dA(r.h(0,"error")),"guitar")){if(!q.z){A.adl("_causes.add(guitar)")
-q.w.push(r)}}else q.w.push(r)}A.fx(q.w.length)
-q.ag(new A.a93(q))
-q.pv()},
+zZ(){var s,r,q,p=this,o=p.w
+o===$&&A.a()
+A.fx(o.length)
+B.b.V(p.w)
+A.fx(p.w.length)
+for(o=p.r,s=o.length,r=0;r<o.length;o.length===s||(0,A.D)(o),++r){q=o[r]
+if(B.d.p(J.dA(q.h(0,"error")),"IEM")){if(!p.y){A.adl("_causes.add(iem)")
+p.w.push(q)}}else if(B.d.p(J.dA(q.h(0,"error")),"guitar")){if(!p.z){A.adl("_causes.add(guitar)")
+p.w.push(q)}}else p.w.push(q)}A.fx(p.w.length)
+p.ag(new A.a93(p))
+p.pv()},
 a2l(){this.ag(new A.a8U(this))},
 pv(){var s=0,r=A.R(t.H),q=this,p,o,n,m
 var $async$pv=A.S(function(a,b){if(a===1)return A.O(b,r)
@@ -33815,9 +33815,7 @@ $0(){var s=this.b
 s.ag(new A.a8W(this.a,s,this.c))},
 $S:0}
 A.a8W.prototype={
-$0(){var s=this.b.w
-s===$&&A.a()
-s.push(A.a8(["error",this.a.a,"solved",!1],t.N,t.z))
+$0(){this.b.r.push(A.a8(["error",this.a.a,"solved",!1],t.N,t.z))
 A.p3(this.c,!1).CR(null)},
 $S:0}
 A.a94.prototype={
