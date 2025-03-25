@@ -15,7 +15,8 @@ body {
   margin-bottom: 20px;
 }
 .photo {
-  clip-path: circle();}
+  border-radius: 50%;
+}
 .img {
   height: 100%;
   width: 200px;
